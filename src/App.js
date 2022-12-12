@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { Search } from './components/random';
+
+let arrayQ = Search();
+console.log(arrayQ);
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div id="quote-box">
+        <div id="q-box">
+        <p id="text">{arrayQ.quote}</p>
+        <p id="author">- {arrayQ.author}</p>
+        <button id="new-quote" onClick={() => {arrayQ.quote = 'hey'}}>New Quote</button>
+        <button>
+          <a href="http://twitter.com/intent/tweet" id="tweet-quote">Tweet Quote</a>
+        </button>
+        </div>
+      </div>
+  )
 }
+
 
 export default App;

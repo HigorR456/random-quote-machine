@@ -6,4 +6,6 @@ const randomQ = [
     ["What you do speaks so loudly that I cannot hear what you say.", "Ralph Waldo Emerson"],
     ["Real knowledge is to know the extent of one's ignorance.", "Confucius"],
     ["Tell me and I forget. Teach me and I remember. Involve me and I learn.", "Benjamin Franklin"]
-  ]
+  ];
+
+  export { randomQ };
