@@ -1,4 +1,4 @@
-const randomQ = [
+const quotesArray = [
     ["Be yourself; everyone else is already taken.", "Oscar Wilde"],
     ["Play is the highest form of research.", "Albert Einsten"],
     ["I have not failed 10,000 times—I've successfully found 10,000 ways that will not work", "Thomas Edison"],
@@ -8,4 +8,4 @@ const randomQ = [
     ["Tell me and I forget. Teach me and I remember. Involve me and I learn.", "Benjamin Franklin"]
   ];
 
-  export { randomQ };
+  export { quotesArray };

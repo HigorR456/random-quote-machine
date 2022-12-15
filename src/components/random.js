@@ -1,14 +1,13 @@
-import { randomQ } from './quotes';
+import { quotesArray } from './quotes';
 
-function Search() {
-  let indexQ = Math.floor(Math.random() * 7);
-  let quote = randomQ[indexQ][0];
-  let author = randomQ[indexQ][1];
-  console.log('Search');
+function Randomize() {
+  let index = Math.floor(Math.random() * 7);
+  let quote = quotesArray[index][0];
+  let author = quotesArray[index][1];
   return {
-    'quote': quote,
-    'author': author
+    q: `${quote}`,
+    a: `${author}`
   }
 }
 
-export { Search };
+export { Randomize };
