@@ -1,12 +1,11 @@
 # Random Quote Machine
 
-![alt text](imagesReadme\quote.JPG)\
-![alt text](imagesReadme\tweet.JPG)
-
 This project is a Random Quote Generator, it uses a few quotes as database instead of a big API.\
 Pressing the button 'New Quote' you can get a new quote.\
 Pressing the button 'Tweet Quote' you can tweet the current quote.\
-You can see below how to runs the app in your machine.
+
+![image](https://user-images.githubusercontent.com/109878939/211175739-af45afb1-9a3a-4d67-8556-d9143758bfbb.png)
+![image](https://user-images.githubusercontent.com/109878939/211175748-458fee20-ff6e-4a9f-882b-f2b3e07c76c0.png)
 
 # Getting Started with Create React App
 
